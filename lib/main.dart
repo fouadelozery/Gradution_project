@@ -7,6 +7,8 @@ import 'package:gradution_project/homepage.dart';
 import 'package:gradution_project/loginscreen.dart';
 import 'package:gradution_project/personalityscreen.dart';
 
+import 'personalitypattern.dart';
+
 
 
 
@@ -23,7 +25,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       locale: Locale('ar'),
       title: 'gradution',
-      home: const PersonalityTypeScreen()
+      home: Personalitypattern()
       
     );
   }

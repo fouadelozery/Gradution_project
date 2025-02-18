@@ -30,7 +30,7 @@ class PersonalityTypeCard extends StatelessWidget {
       ),
       child: Row(
         children: [
-          Icon(Icons.arrow_back_ios_new, color:  isHighlighted ?    Colors.white :const Color(0Xff36715A) , size: 18),
+          Icon(Icons.arrow_back_ios_new, color:  isHighlighted ?    Colors.white :Color(0XFF36715A)  , size: 18),
           Expanded(
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.end,
@@ -41,7 +41,7 @@ class PersonalityTypeCard extends StatelessWidget {
                   style: TextStyle(
                     fontSize: 24,
                     fontWeight: FontWeight.bold,
-                    color: isHighlighted ? Colors.white : const Color(0Xff36715A),   
+                    color: isHighlighted ? Colors.white :Color(0XFF36715A) ,   
                   ),     textAlign: TextAlign.right
                 ),
                 const SizedBox(height: 8),
@@ -49,7 +49,7 @@ class PersonalityTypeCard extends StatelessWidget {
                   description,
                   style: TextStyle(
                     fontSize: 17,
-                    color: isHighlighted ? Colors.white : Colors.black,
+                    color: isHighlighted ? Colors.black: Colors.white ,
                   ),     textAlign: TextAlign.right
                 ),
               ],
