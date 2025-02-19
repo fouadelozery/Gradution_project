@@ -24,7 +24,7 @@ class PersonalityPatternbody extends StatelessWidget {
           ),
         ),
       ),
-      PersonalitypatternContainer(),
+      const PersonalitypatternContainer(),
       const CustomBottomNavigationBar()
     ]));
   }
