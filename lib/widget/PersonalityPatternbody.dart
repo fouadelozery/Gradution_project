@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gradution_project/widget/CustomBottomNavigationBar.dart';
 import 'package:gradution_project/widget/PersnonalityPatternItem.dart';
 import 'package:gradution_project/widget/PersonalitypatternContainer.dart';
 
@@ -23,7 +24,8 @@ class PersonalityPatternbody extends StatelessWidget {
           ),
         ),
       ),
-      PersonalitypatternContainer()
+      PersonalitypatternContainer(),
+      const CustomBottomNavigationBar()
     ]));
   }
 }

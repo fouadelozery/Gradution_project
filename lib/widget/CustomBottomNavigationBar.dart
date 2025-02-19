@@ -13,15 +13,15 @@ class CustomBottomNavigationBar extends StatelessWidget {
       showUnselectedLabels: true,
    
       items: const [
-        BottomNavigationBarItem(icon: Icon(Icons.home,size: 32), label: 'الرئيسية',),
+        BottomNavigationBarItem(icon: Icon(Icons.home,size: 30), label: 'الرئيسية',),
         BottomNavigationBarItem(
-            icon: Icon( FontAwesomeIcons.personCircleExclamation,size: 32,), label: 'الأنماط'),
+            icon: Icon( FontAwesomeIcons.personCircleExclamation,size: 30,), label: 'الأنماط'),
         BottomNavigationBarItem(
-          icon: Icon( FontAwesomeIcons.solidComment,size: 32),
+          icon: Icon( FontAwesomeIcons.solidComment,size: 30),
           label: "محادثة",
         ),
         BottomNavigationBarItem(
-          icon: Icon(Icons.settings,size: 32),
+          icon: Icon(Icons.settings,size: 30),
           label: "الإعدادات",
         ),
       ],
